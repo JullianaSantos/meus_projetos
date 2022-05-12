@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+    <title>Cadastro Bookstans</title>
+</head>
+<body>
+    <div>
+    <h1 type="titulo">Cadastro de Bookstans</h1>
+        <p id="subtitulo">Complete suas Informações</p>
+    </div>
+
+<form>
+    <fieldset class="grupo">
+        <div class="campo">
+            <label for="nome"><strong>Nome</strong></label>
+            <input type="text" name="nome" id="nome" required>  
+        </div>
+
+        <div class="campo">
+            <label for="sobrenome"> <strong>Sobrenome </strong></label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+            
+        </div>
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="email" id="email" required>            
+        </div>
+
+        <div class="campo"> 
+            <label><strong>Qual gênero literário você se identifica mais?</strong></label> <br>
+            <input type="radio" name="Gênero" value="Conto">Conto 
+            <label>
+                <input type="radio" name="gênero" value="Romance">Romance
+            </label>
+            <label>
+                <input type="radio" name="Gênero" value="Poema">Poema
+            </label> 
+            <label>
+                <input type="radio" name="Gênero" value="Crônica">Crônica
+            </label>
+        </div> 
+
+        <div class="campo">
+            <label for="tipo de bookstan"><strong>Tipo de bookstan</strong></label>
+            <select id="tipo de bookstan">
+                <option selected disabled value="">Selecione</option>
+                <option>Panfleteiro</option>
+                <option>Sofredor</option>
+                <option>Procrastinador</option>
+                <option>Consumista</option>
+                <option>Briguento</option>
+                <option>Soft</option>
+            </select>
+
+        </div>
+
+    </fieldset>
+
+    <fieldset class="grupo">
+        <div id="check">
+            <label> <strong>Selecione os tipos de livros que você mais gosta de ler:</strong> </label> <br> <br>
+            <input type="checkbox" id="genero1" name="genero1" value="Romance">
+            <label for="genero1"> Romance </label>
+            <input type="checkbox" id="genero2" name="genero2" value="Terror">
+            <label for="genero2"> Terror </label>
+            <input type="checkbox" id="genero3" name="genero3" value="Fantasia">
+            <label for="genero3">Fantasia</label>
+            <input type="checkbox" id="genero4" name="genero4" value="Distopia">
+            <label for="genero4">Distopia</label>
+            <input type="checkbox" id="genero6" name="genero6" value="Policial">
+            <label for="genero6">Policial</label>
+            <input type="checkbox" id="genero7" name="genero7" value="Biografia">
+            <label for="genero7">Biografia</label>
+        </div>
+
+    </fieldset> <br>
+    <div class="campo">
+        <label><strong>Conte um pouco da sua experiência no mundo literário:</strong></label>
+        <textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>    
+    </div>
+    <button class= "botao" type="submit"> Concluído </button>
+</form>
+</body>
+</html>
