@@ -1,0 +1,27 @@
+body {
+    background: url(img.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+.clock {
+    position: absolute;
+    top: 80%;
+    left: 34%;
+    transform: translateX(-50) translateY(-50);
+    color: #fff;
+    font-size: 60px;
+    font-family: Montserrat;
+    letter-spacing: 7px;
+}
+
+p {
+    position: relative;
+    top: -25%;
+    left: -1%;
+    font-size: 30px;
+    color: white;
+}
