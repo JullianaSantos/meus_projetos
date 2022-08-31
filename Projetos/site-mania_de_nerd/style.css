@@ -1,0 +1,46 @@
+#h1header{
+   font-family:"harryp";
+   font-size: 500%;
+}
+@font-face {
+    font-family: "harryp";
+    src: url('/Fontes/HARRYP__.TTF') format('opentype');
+}
+a{
+    color:yellow;
+    margin-left: 12%;
+    font-family:"harryp";
+    font-size: 200%;
+}
+
+h1{
+    color:white;
+    text-align: center;
+}
+h3{
+    color:yellow;
+    text-align: center;
+}
+body{
+    background-color: #A52A2A;
+    
+    
+}
+#imagem1{
+    position:flex;
+    text-align: center;
+    height: 300%;
+    width: -100%;
+}
+
+footer{
+    color:black;
+    background-color:yellow;
+    text-align: center;
+}
+
+#logo{
+    width: 5%;
+    margin-top: 1%;
+}
+
